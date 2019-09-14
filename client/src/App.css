@@ -1,0 +1,61 @@
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Navbar */
+.bg-navbar {
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bg-navbar div ul li a {
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: ease-in-out 0.1s;
+}
+
+.bg-navbar div ul li a:hover {
+  background-color: var(--primary-color);
+}
+
+/* Overlay */
+.overlay {
+  margin-top: -50px;
+}
+
+/* Landing Page */
+.landing-inner {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
